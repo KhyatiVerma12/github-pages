@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Makeup by Girisha Makeovers</title>
+  <style>
+    /* General Styles */
+    body {
+      margin: 0;
+      font-family: 'Times New Roman';
+      font-style:italic;
+      background-color: #f8f2f3;
+      color: #ffffff;
+      scroll-behavior: smooth;
+    }
+
+    header {
+      position: relative;
+      background-image: url(https://media.gettyimages.com/id/1401996644/video/close-up-and-super-slow-motion-of-red-powder-glitter-exploding-and-falling-from-a-flicking.jpg?s=640x640&k=20&c=1CI2Hr9xqxpHbVdfIdG_BQGnMXRs17zzVcEBF0OCjcI=); /* Replace this with your image path */
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      padding: 6rem 1.5rem; /* Adjust padding to suit your design */
+      text-align: center;
+      color: #fff;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 5.0rem;
+      color: #fff9f9;
+    }
+
+    nav {
+      margin-top: 1rem;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: underline;
+      color: #f4f3ec;
+      font-weight: bold;
+    }
+
+    /* Hero Section */
+    .hero {
+      background-color: #5b0315;
+      text-align: center;
+      padding: 4rem 1rem;
+    }
+
+    .hero h2 {
+    font-size: 1.9rem; /* Adjust the font size as needed */
+    color: #faf6f7; /* Keep the color for visibility */
+}
+
+    .hero img {
+      max-width: 100%;
+      height: auto;
+      margin-top: 20px;
+      border-radius: 10px;
+    }
+
+    /* Portfolio */
+    .portfolio {
+      padding: 3rem 1rem;
+      background-color: #5b0315;
+      text-align: center;
+    }
+
+    .portfolio h2 {
+    color: #f5f1f7;
+    margin-bottom: 2rem;
+    font-size: 3rem; /* Adjust this value as needed */
+}
+
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: 400px; /* Fixed height for uniformity */
+      object-fit: cover; /* Ensures images fill the area without distortion */
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    /* Contact */
+    .contact {
+      background-color:#5b0315;
+      padding: 3rem 1rem;
+      text-align: center;
+    }
+
+    .contact h2 {
+      color: #ffffff;
+    }
+
+    .contact p {
+      font-size: 1.1rem;
+      margin: 10px 0;
+    }
+
+    .contact a {
+      color: #f4f4f4;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    footer {
+      background-color:#5b0315;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #fffefe;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2.5rem;
+      }
+
+      .hero h2 {
+        font-size: 2rem;
+      }
+    }
+    .services-list {
+  list-style: none;
+  padding: 0;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.services-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-bottom: 1px solid #f0e0e3;
+  font-size: 1.2rem;
+  font-style: italic;
+  color: #ffffff;
+}
+
+.service-title {
+  text-align: left;
+  max-width: 70%;
+}
+
+.price {
+  text-align: right;
+  font-weight: bold;
+  color: #f4d3dc;
+  min-width: 80px;
+}
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Makeup by Girisha Makeovers</h1>
+    <h2>Get photo ready with us</h2>
+    <nav>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>We offer personalized looks for every occasion—whether it's the bright hues of a Haldi ceremony, the radiant elegance of a Bridal makeover, the festive charm of Mehendi nights, the romantic glow of an Engagement, or the glam of a Party look.    <h2>Services Offered:</h2>
+    <ul class="services-list">
+        <li><span class="service-title">Full Bridal Package</span><span class="price">₹25000</span></li>
+        <li><span class="service-title">Bridal Makeup</span><span class="price">₹15000</span></li>
+        <li><span class="service-title">Engagement Makeup</span><span class="price">₹8000</span></li>
+        <li><span class="service-title">Haldi Makeup</span><span class="price">₹6000</span></li>
+        <li><span class="service-title">Mehendi Makeup</span><span class="price">₹8000</span></li>
+        <li><span class="service-title">Party & Event Makeup</span><span class="price">₹6000</span></li>
+        <li><span class="service-title">HD & Airbrush Makeup Options</span><span class="price">+₹2000</span></li>
+        <li><span class="service-title">Hair Styling & Draping Services</span><span class="price">+₹2000</span></li>
+      </ul>
+      
+</h2>
+<img src="C:\Users\KHYATI VERMA\OneDrive\Pictures\hero_image.jpg" alt="Hero Makeup Image" width="500" height="400" />
+  </section>
+
+  <section class="portfolio" id="portfolio">
+    <h2>My Work</h2>
+  
+    <!-- Bridal Makeup Section -->
+    <div class="category">
+      <h3>Bridal Makeup</h3>
+      <div class="gallery">
+        <img src="C:\Users\KHYATI VERMA\OneDrive\Pictures\brrrrrrrr.jpg" alt="Bridal Makeup Look 1" />
+        <img src="C:\Users\KHYATI VERMA\OneDrive\Pictures\bridalnew1.jpg" alt="Bridal Makeup Look 2" />
+        <img src="C:\Users\KHYATI VERMA\OneDrive\Pictures\pic3.jpg" alt="Bridal Makeup Look 3" />
+      </div>
+    </div>
+  
+    <!-- Engagement Makeup Section -->
+    <div class="category">
+      <h3>Engagement Makeup</h3>
+      <div class="gallery">
+        <img src="C:\Users\KHYATI VERMA\OneDrive\Pictures\pic1.jpg" alt="Engagement Makeup Look 1" />
+        <img src="C:\Users\KHYATI VERMA\OneDrive\Pictures\pic2.jpg" alt="Engagement Makeup Look 2" />
+        <img src="C:\Users\KHYATI VERMA\OneDrive\Pictures\pic6.jpg" alt="Engagement Makeup Look 3" />
+      </div>
+    </div>
+  
+    <!-- Mehendi & Haldi Makeup Section -->
+    <div class="category">
+      <h3>Mehendi & Haldi Makeup</h3>
+      <div class="gallery">
+        <img src="C:\Users\KHYATI VERMA\OneDrive\Pictures\pic5.jpg" alt="Mehendi Look 1" />
+        <img src="C:\Users\KHYATI VERMA\OneDrive\Pictures\haldi1.jpg" alt="Mehendi Look 2" />
+        <img src="C:\Users\KHYATI VERMA\OneDrive\Pictures\haldi2.jpg" alt="Mehendi Look 3" />
+      </div>
+    </div>
+  
+    <!-- Party Makeup Section -->
+    <div class="category">
+      <h3>Party Makeup</h3>
+      <div class="gallery">
+        <img src="C:\Users\KHYATI VERMA\OneDrive\Pictures\party3.jpg" alt="Party Makeup Look 1" />
+        <img src="C:\Users\KHYATI VERMA\OneDrive\Pictures\party4.jpg" alt="Party Makeup Look 2" />
+        <img src="C:\Users\KHYATI VERMA\OneDrive\Pictures\partyyyy.jpg" alt="Party Makeup Look 3" />
+      </div>
+    </div>
+  
+  </section>
+  
+
+  <section class="contact" id="contact">
+    <h2>Contact us</h2>
+    <p>Email: <a href="mailto:vermaneha2195@gmail.com">vermaneha2195@gmail.com</a></p>
+    <p>Phone: <a href="tel:+918448963046">8178952412</a></p>
+    <p>Instagram: <a href="https://www.instagram.com/girishaa_makeovers?igsh=MTBhYXE4bHozZmcxMQ==" target="_blank">https://www.instagram.com/girishaa_makeovers?igsh=MTBhYXE4bHozZmcxMQ==</a></p>
+  </section>
+
+  <footer>
+    © 2025 Makeup by Girisha Makeovers. All rights reserved.
+  </footer>
+
+</body>
+</html>
